@@ -17,7 +17,7 @@
 
 .text_euro {
   font-family: 'Roboto Condensed'; 
-  font-weight: 500;
+  font-weight: 700;
   color: #00A2B3;
   font-size: 24px;
 }
@@ -57,9 +57,11 @@ hr {
   font-weight: 500;
   color: #48434a;
   font-size: 14px;
+  padding-top: 5px;
 }
 
 #button_reduction {
+  font-policy: 'Roboto Condensed';
   text-align: center; 
   background-color: #009bac; 
   color: white; 
@@ -69,11 +71,13 @@ hr {
 }
 
 #text_reduction_large {
+  font-policy: 'Roboto Condensed';
   padding-top: 10px; 
   padding-bottom: 10px;
   font-size: 12px;
 }
 
 #text_reduction_small {
+  font-policy: 'Roboto Condensed';
   font-size: 12px;
 }
