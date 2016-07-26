@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed+bold');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed+regular');
+
+.fullWidth {
+ width: 100%;
+ margin-left: auto;
+ margin-right: auto;
+ max-width: initial;
+}
+
+.text_soit {
+  font-family: 'Roboto Condensed'; 
+  font-weight: 500;
+  color: #1D1D1B;
+  font-size: 12px;
+}
+
+.text_euro {
+  font-family: 'Roboto Condensed'; 
+  font-weight: 500;
+  color: #00A2B3;
+  font-size: 24px;
+}
+
+hr {
+  width: 100%;
+}
+
+#text_merci {
+  margin-top: 25px;
+  text-align: center;
+  color: #565258;
+  font-family: 'Roboto Condensed'; 
+  font-weight: 700;
+  font-size: 18px;
+}
+
+#link_savoir {
+  color: white; 
+  text-decoration: underline;
+}
+
+#link_savoir:hover{
+  color: white; 
+  text-decoration: none;
+}
+
+#text_footer {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  font-policy: Arial;
+}
+
+#text_partage {
+  font-policy: 'Roboto Condensed';
+  font-weight: 500;
+  color: #48434a;
+  font-size: 14px;
+}
+
+#button_reduction {
+  text-align: center; 
+  background-color: #009bac; 
+  color: white; 
+  font-size: 12px; 
+  padding-top: 10px; 
+  padding-bottom: 10px;
+}
+
+#text_reduction_large {
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  font-size: 12px;
+}
+
+#text_reduction_small {
+  font-size: 12px;
+}
