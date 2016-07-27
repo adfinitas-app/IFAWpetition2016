@@ -42,4 +42,18 @@ $(document).ready(function() {
 			$('#img-proteger').attr("src", "https://s3.amazonaws.com/heroku-adfinitas-campaign/ifaw-juillet-2016/img/site_merci/img-proteger.png");
 		}).fadeTo(300,1);
 	});
+	$('.set-shadow').mouseenter(function()
+	{
+		$(this).fadeIn(1000, function()
+		{
+			$(this).addClass('shadow');
+		});
+	});
+	$('.set-shadow').mouseleave(function()
+	{
+		$(this).fadeIn("slow", function()
+		{
+			$(this).removeClass('shadow');
+		});
+	});
 });
